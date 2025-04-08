@@ -10,15 +10,20 @@
         html, body {
             height: 100%;
             margin: 0;
+            background-color: #414a60; /* Background color */
         }
         /* Right side (image) div */
         .rightdiv {
-            width: 100%;
-            height: 100%;
+            width: 600px; /* Set the width to the image size */
+            height: 500px; /* Set the height to the image size */
             background-image: url('logo.png'); /* Image URL */
-            background-size: 80%; /* Adjust the percentage to zoom out */
-            background-position: center; /* Center the image */
+                       background-position: center; /* Center the image */
             background-repeat: no-repeat; /* Prevent the image from repeating */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow to the image */
+            border-radius: 15px; /* Apply border radius */
+            margin: auto; /* Center the div horizontally */
+            position: absolute; /* Center the div vertically */
+            top: 0; bottom: 0; left: 0; right: 0;
         }
     </style>
 </head>
